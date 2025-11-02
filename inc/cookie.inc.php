@@ -11,7 +11,7 @@ $lastVisit = "";
 if (isset($_COOKIE['lastVisit'])) {
   $lastVisit = date("d-m-Y H:i:s", $_COOKIE['lastVisit']);
 }
-// 
+
 
 setcookie("visitCounter", $visitCounter, time() + 3600*24*30);
 

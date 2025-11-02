@@ -1,0 +1,9 @@
+1762082401|/|
+1762082404|/index.php|http://schoolb2/
+1762082405|/index.php?id=contact|http://schoolb2/index.php
+1762082406|/index.php?id=about|http://schoolb2/index.php?id=contact
+1762082406|/index.php?id=info|http://schoolb2/index.php?id=about
+1762082407|/index.php?id=gbook|http://schoolb2/index.php?id=info
+1762082407|/index.php?id=log|http://schoolb2/index.php?id=gbook
+1762082431|/index.php?id=gbook|http://schoolb2/index.php?id=log
+1762082432|/index.php?id=log|http://schoolb2/index.php?id=gbook

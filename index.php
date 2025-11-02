@@ -1,6 +1,10 @@
 <?php 
   include 'inc/headers.inc.php'; 
   include 'inc/cookie.inc.php'; 
+
+  // Имя файла журнала
+  define('PATH_LOG', 'log/path.log');
+  include 'inc/log.inc.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +16,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="inc/style.css" />
 </head>
-<!-- -->
+
 <body>
 
   <div id="header">
@@ -56,6 +60,7 @@
       <li><a href='index.php?id=about'>О нас</a></li>
       <li><a href='index.php?id=info'>Информация</a></li>
       <li><a href='index.php?id=gbook'>Гостевая книга</a></li>
+      <li><a href='index.php?id=log'>Журнал посещений</a></li>
     </ul>
     <!-- Навигация -->
   </div>
